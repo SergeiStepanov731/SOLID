@@ -8,13 +8,13 @@ package SingleResponsibilityPrinciple.modem_srp_violation;
 
 public interface IModem {
 
-    // --- Connection management responsibilities = dial, disconnect
+    // -- Connection management responsibilities = dial, disconnect
 
     void dial(String phoneNumber);
 
     void disconnect();
 
-    // --- Data management responsibilities = send, receive
+    // -- Data management responsibilities = send, receive
 
     void send(String str);
 
